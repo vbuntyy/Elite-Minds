@@ -2,7 +2,7 @@
 
   <test name="Chrome_Test">
     <parameter name="browser" value="Chrome"/>
-    <parameter name="gridUrl" value="http://172.20.194.133:4444"/>
+    <parameter name="gridUrl" value="http://10.238.155.133:4444"/>
     <classes>
       <class name="demo.GridLoginTest"/>
     </classes>
@@ -10,7 +10,7 @@
 
   <test name="Firefox_Test">
     <parameter name="browser" value="Firefox"/>
-    <parameter name="gridUrl" value="http://172.20.194.133:4444"/>
+    <parameter name="gridUrl" value="http://10.238.155.133:4444"/>
     <classes>
       <class name="demo.GridLoginTest"/>
     </classes>
