@@ -1,0 +1,19 @@
+<suite name="Grid Suite" parallel="tests" thread-count="2">
+
+  <test name="Chrome_Test">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="gridUrl" value="http://localhost:4444"/>
+    <classes>
+      <class name="demo.GridLoginTest"/>
+    </classes>
+  </test>
+
+  <test name="Firefox_Test">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="gridUrl" value="http://localhost:4444"/>
+    <classes>
+      <class name="demo.GridLoginTest"/>
+    </classes>
+  </test>
+
+</suite>
